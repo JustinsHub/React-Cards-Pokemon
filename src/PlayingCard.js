@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import backOfCard from "./back.png";
-import useToggle from './hooks/useToggle'
+import useToggle from './hooks/useFlip'
 import "./PlayingCard.css"
 
 /* Renders a single playing card. */
