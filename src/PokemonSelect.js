@@ -9,6 +9,7 @@ function PokemonSelect({ add, pokemon = pokemonList }) {
     setPokeIdx(evt.target.value);
   };
 
+  //name parameter on the addPokemon is added on the onClick
   return (
     <div>
       <select onChange={handleChange}>

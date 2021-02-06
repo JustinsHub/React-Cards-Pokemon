@@ -24,7 +24,7 @@ const PokemonCard = ({ front, back, name, stats }) => {
         </div>
       ) : (
         <div className="PokemonCard-back">
-          <img src={back} alt={`{name} back`} />
+          <img src={back} alt={`${name} back`} />
         </div>
       )}
     </div>
